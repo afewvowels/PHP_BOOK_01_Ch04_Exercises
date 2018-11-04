@@ -1,0 +1,107 @@
+@charset "utf-8"
+
+/*
+  Palette
+
+  White: #FCF7F6
+  Orange: #943600
+  Green: #08A368
+  Red: #A60835
+  Magenta: #9C0A5D
+  Blue: #1F3C8C
+
+ */
+
+html {
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #1F3C8C;
+  color: #FCF7F6;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: #943600;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #9C0A5D;
+  width: 100vw;
+}
+
+a {
+  color: #FCF7F6;
+}
+
+a:visited {
+  color: #FCF7F6;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #08A368;
+  width: 200px;
+  min-height: 100vh;
+}
+
+ul {
+  margin: 0 auto;
+  width: 200px;
+  list-style: none;
+  background-color: #943600;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  background-color: #08A368;
+  color: #FCF7F6;
+  border: 2px solid #FCF7F6;
+  width: 80px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exercise {
+  flex-grow: 1;
+}
+
+.word_input {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display:block;
+    width: 100vw;
+    height: 80px;
+    min-height: 80px;
+  }
+
+  .button {
+    display: inline;
+  }
+}
